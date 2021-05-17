@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d989ef3f-3f04-40fe-bc05-0b20a3152b8b" version="5">
+    <Properties>
+        <Name>Enhanced Civil Infrastructure - Only 1 Panama Canal</Name>
+        <Description>Disables the ability to build the Panama Canal multiple times.</Description>
+        <Created>1621080276</Created>
+        <Teaser>Disables the ability to build the Panama Canal multiple times.</Teaser>
+        <Author>DahakaMVl</Author>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <Dependencies>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+        <Mod id="2b2bb21f-9706-438b-a064-173b7bf3dac5" title="Enhanced Civil Infrastructure"/>
+    </Dependencies>
+    <InGameActions>
+        <UpdateDatabase id="enhancedCivilInfrastructureOnly1PanamaCanal_core">
+            <Properties>
+                <LoadOrder>1001</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructureOnly1PanamaCanal_Core.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>EnhancedCivilInfrastructureOnly1PanamaCanal_Core.sql</File>
+    </Files>
+</Mod>

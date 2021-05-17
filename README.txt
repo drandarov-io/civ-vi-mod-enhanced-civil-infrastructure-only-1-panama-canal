@@ -1,0 +1,1 @@
+Disables the ability to build the Panama Canal multiple times.
